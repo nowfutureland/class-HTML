@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <header>
+     <meta charset="UTF-8">
+     <title>a 태그 링크설명</title>
+ </header>
+ <body>
+     <header>
+	<a href="https://ko.wikipedia.org">위키백과로 이동</a>
+     	<a href="https://ko.wikipedia.org" target="_blank">new 위키백과로 이동</a>
+	</header>
+     <main>
+	 <br>
+	 <h1>검색을 도와 드립니다</h1>
+	<h2>검색을 도와 드립니다</h2>
+	<h3>검색을 도와 드립니다</h3>
+	<h4>검색을 도와 드립니다</h4>
+	<h5>검색을 도와 드립니다</h5>
+	<h6>검색을 도와 드립니다</h6>
+
+	 <a href="#one">one 이동</a>
+	<a href="#two">two 이동</a>
+	<a href="#three">three 이동</a>
+
+	<p id="one" style="margin-top: 50px;">one</p>
+	<p id="two" style="margin-top: 100px;">two</p>
+            <p id="three" style="margin-top: 1500px;">three</p>
+             <p style="margin-top: 2000px;"></p>
+
+
+    </main>
+</body>
+
+</html>
