@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+     <meta charset="UTF-8">
+     <title>test00_ol</title>
+ </head>
+ <body>
+     <header>
+   <h3 align="center">순서가 없는 목록(ol)<h3>
+        <hr>
+   </header>
+     <main>
+     HTML 이론 및 실습
+   <ol start=10 reversed>
+     <li>HTML 특징(default type=숫자)</li>
+     <li>HTML 구성요소</li>
+     <li>HTML 문자 태그</li>
+     <li>HTML 주요 태그</li>
+   </ol>
+      Web DynamicProject
+   <ol type=A start="3">
+     <li>front-end 개발 : HTML + CSS + Javascript(type=A)</li>
+     <li>Back-end 개발 : JSP + JAVA + DB(oracle)</li>
+     <li>WAS-Apach Tomcat</li>
+     <li>통합 개발 프로그램 : eclipse</li>
+   </ol>
+      Ul 유형
+   <ol type=a start="5">
+     <li>CLI(Common User Interface) : 정적 텍스트 기반</li>
+     <li>GUI(Graphic  User Interface) : 그래픽 반응 기반</li>
+     <li>NLI(Natural User Interface) : 직관적 사용자 반응 기반</li>
+     <li>OLI(Organic User Interface) : 유기적 상호작용 기반</li>
+   </ol>
+    </main>
+     <footer align="center">
+        웹 프로그랠밍의 시작~! 저는 2학년 12반 김민경입니다.
+</footer>
+</body>
+</html>
