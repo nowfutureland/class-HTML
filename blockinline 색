@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+     <meta charset="UTF-8">
+     <title>test30_tag_blockinline</title>
+ </head>
+ <body>
+     <header>
+   <h3 align="center">태그가 영역을 지정하는 방식에 따라<h3>
+        <hr>
+     </header>
+     <main>
+   <h3 style="background-color:blue; color:white; text-align:center; line-height:40px">블럭 태그의 기본 스타일 이해<h3>
+   <div>
+          <p>자기만의 영역이 있다</p>
+          <p>기본 가로 영역 100%을 소유한다</p>
+          <p>너비나 높이를 지정할 수 있다</p>
+          <p>블록 태그는 줄 바꿈이 다음 라인으로 이어진다</p>
+   </div>
+
+   <p>
+        텍스트 단락을 만드는 p(paragaph)태그는 단락이 바뀌고 줄을 바꾸어도
+        한 라인에 표시 됩니다.
+        p테그에서 줄을 바꾸려면 br테그를 사용합니다. br테그는 줄을 바꾸어 주는
+        테그로 닫는 테그가 없습니다.
+        <strong>
+      <a href="https://ko.wikipedia.org">위키백과로 이동</a>
+      <a href="https://ko.wikipedia.org" target="_blank">new 위키백과로 이동</a>
+        </strong>
+   </p>
+   <p>
+        아래 이름을 굵게 강조할 경우 strong테그나 b 테그를 사용한다. 두 테그의 차이는 별로 없으나
+        의미는 화면 낭독기에 적응하는 것은 <strong>strong 테그</strong>로 사용한 부분을 강조하여
+        읽어준다.
+   </p>
+    </main>
+
+     <footer style="background-color:grey; color:yellow; text-align:center; line-height:40px">
+        웹 프로그랠밍의 시작~! 저는 2학년 12반 <strong>김민경</strong>입니다.
+     </footer>
+   </body>
+</html>
